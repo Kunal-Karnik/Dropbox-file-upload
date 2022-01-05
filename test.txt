@@ -1,0 +1,19 @@
+this is a test file to upload on dropbox.
+
+Follow the instructions below:
+
+Generate the access token by following below steps:
+1. Create an account / login on dropbox.com
+2. Go to the link ahead to create an app. https://www.dropbox.com/developers/apps
+3. Click on Create app. Select Scoped access. Enter type as Full Dropbox. Name your app and click on Create App.
+4. Go to Permissions tab and click on checkboxes under Files and Folders section to grant the access and then press submit button.
+5. Come to settings tab again. Click on 'Enable Additional Users'. Change Access token expiration to No expiration. Then Click on the Generate button.
+6. Copy and replace the access token in the python code to use your app.
+
+1. Run the python code. 
+2. Enter file path to upload. If you have the text file in the same directory, enter the path as './test.txt'. You may enter proper absolute or relative path for the target file.
+3. Enter the upload path in format '/folder/file.txt'. A new folder and file will be created on dropbox with the names entered in the upload path.
+    Note : 
+        - The folder and file name need not be the same as that of the actual file as this is a new file that will be created.
+        - Make sure that the file extension entered in upload path is the same as the target file.
+4. File will be moved to dropbox and the success message will be printed in the terminal.
